@@ -25,9 +25,11 @@ Para el método de la atracción gravitacional se necesita utilizar el otro meto
 ![image](https://user-images.githubusercontent.com/113210248/198124595-65d55ff0-f0d7-48b0-b379-fe20084aaff9.png)
 
 Tomado de:
+
 ![image](https://user-images.githubusercontent.com/113210248/198125365-ce5b58a9-21f3-4fc6-b912-626e5a170f07.png)
 
 Según la ecuación donde G es la constante de gravitación universal de Newton, que en el codigo esta representada como una constante
+
 ![image](https://user-images.githubusercontent.com/113210248/198126018-fb7897dc-dab0-43a7-b225-10b37d2923de.png)
 
 m es la masa de un planeta y M es la masa del otro planeta, y r es la distancia entre ellos, y a este metodo se le mandan dos parametros
@@ -50,4 +52,6 @@ Por ultimo se aclara que solo se pueden agregar mas de nueve planetas.
 
 
 Mucha gracias y espero te haya gustado es con todo el  💖
+
+###Bibliografias
 Barreto, J. C. (2014). Solución geométrica de ecuaciones de segundo grado usando el Teorema de Pitágoras en la diferencia de cuadrados o gnómones. Premisa, 63, 29-46.
