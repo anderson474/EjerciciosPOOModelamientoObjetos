@@ -53,5 +53,5 @@ Por ultimo se aclara que solo se pueden agregar mas de nueve planetas.
 
 Mucha gracias y espero te haya gustado es con todo el  💖
 
-###Bibliografias
+### Bibliografias
 Barreto, J. C. (2014). Solución geométrica de ecuaciones de segundo grado usando el Teorema de Pitágoras en la diferencia de cuadrados o gnómones. Premisa, 63, 29-46.
