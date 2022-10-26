@@ -37,6 +37,9 @@ public class Planet {
         this.coordY = coordY;
         this.diameter = diameter;
         id++;
+        if(id>9){
+            throw new IllegalArgumentException("No se pueden crear más de nueve planetas");
+        }
     }
 
     /**
@@ -72,7 +75,7 @@ public class Planet {
      */
     public double gravitacionalAtract(Planet planet1, Planet planet2){
         this.distance=calculateDist(planet1,planet2);
-        var forceGravity= (UNIVGRAVICONST* planet1.getMass()* planet2.getMass())/this.distance;
+        var forceGravity= (UNIVGRAVICONST* planet1.getMass()* planet2.getMass())/Math.pow(this.distance,2);
         return forceGravity;
 
     }
