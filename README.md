@@ -39,7 +39,14 @@ Y para la distancia hacia el sol el metodo solo hace el calculo de la hipotenusa
 que se llame sol y dandole las coordenadas (0,0), y mandandolo como parametro en la función de hallar la distancía.
 Por ultimo se aclara que solo se pueden agregar mas de nueve planetas.
 
+## Ejercicio 2:
+No porque el compilador de Java busca una clase estatica que se llame main para ejecutarla, el IDE de Intellij me deja mostrar cual main correr
+pero como podemos evidenciar en la siguiente imagen no se puede correr porque ya hay otra definición por ende el compilador entra en un conflicto
 
+![image](https://user-images.githubusercontent.com/113210248/198129319-d6283c0e-eb3c-4deb-8e52-d5fb883a166a.png)
+
+La otra cosa es que se tenga dos archivos main pero en diferentes archivos o paquetes como eneste caso de que cada ejercicio esta por separado en carpetas
+con diferentes main, pero esto hace parte de las malas practicas de programación, la idea es que por cada proyecto se tenga un solo main
 
 
 
