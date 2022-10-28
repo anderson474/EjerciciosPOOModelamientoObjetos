@@ -54,8 +54,11 @@ Cuando creo una variable de tipo Sort el constructor pide dos cosas: el array qu
 de tipo booleana que me conmuta su quiero el metodo quicksort o el algoritmo de la burbuja, siendo true quick sort y false
 el algoritmo de la burbuja.
 Ej:
+
         int[] prueba={4,5,2,3,6,1};
         Sort s1 = new Sort(prueba,true);
+        
+        
 ### Método Quick sort:
 El método consiste en escojer un selector izquierdo, un selector derecho y un pivote, por lo general se inicia el pivote y el selector izquierdo
 como la posición cero y el selector derecho en el último elemento del arreglo(al inicio de la iteración) así.
