@@ -93,9 +93,10 @@ luego hay que arrastrar el segundo mas grande a la penultima y así sucesivament
                     for (int j=0; j<i; j++)            
 Con esto ahorramos tiempo de ejecución, sin preguntar por el número que ya sabemos que esta bien.
 
-Ahora para la aplicación completa:
-Estos son los arrays ya ordenados
-![image](https://user-images.githubusercontent.com/113210248/199113446-e7f24b5c-e2c4-4183-9acf-eea6da7e514c.png)
+Nota: cada vez que se corra se van a ver diferentes por la función random de Math.
+
+![image](https://user-images.githubusercontent.com/113210248/199114327-c16df8a8-89b4-4788-af6b-614ee8c40276.png)
+
 
 
 
