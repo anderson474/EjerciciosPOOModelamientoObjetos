@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cb2baa15-0408-4520-aa53-fca67a43f103" name="Changes" comment="Excepcion agregada">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio3/MainSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio3/MainSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio3/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio3/Sort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
