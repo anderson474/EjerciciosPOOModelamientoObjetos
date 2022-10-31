@@ -79,6 +79,26 @@ sean mayores a el pivote se organizan en el lado derecho, y los menores en el la
  y si sucede lo mismo se vulve y se anida, hasta que regrese al último llamado, ordenando el arreglo de números.
 Nota: el while es por si el número esta en el lugar que es el selector se mueve.
 
+### Método de la burbuja:
+El método consiste en basicamnete comparar dos elementos de un array arrastrando el mayor número hacia la última posición del vector
+Por ejemplo si tenemos el arreglo {3,2,1}, entonces el algoritmo consiste en preguntar si tres es mayor que dos si lo es, cambielos de posición
+{2,3,1}, luego pregunta si el tres es mayor que uno, si es así cambielos, {2,1,3}, y vemos que mayor número queda en la última posición,
+esta caracteristica la vamos a usar a nuestro favor, entonces hay que recorrer todo el array:
+
+for (int j=0; j<i; j++)
+
+Luego eso se tiene que hacer por todos lo elemntos del array; es decir, como vemos que arrastramos el mayor número a la última posición 
+luego hay que arrastrar el segundo mas grande a la penultima y así sucesivamente, es decir acotamos la llegada de las comparaciones
+
+for(int i= numbers.length-1; i>0; i--){
+            for (int j=0; j<i; j++)
+            
+Con esto ahorramos tiempo de ejecución, sin preguntar por el número que ya sabemos que esta bien.
+
+Ahora para la aplicación completa:
+Estos son los arrays ya ordenados
+![image](https://user-images.githubusercontent.com/113210248/199113446-e7f24b5c-e2c4-4183-9acf-eea6da7e514c.png)
+
 
 
 
