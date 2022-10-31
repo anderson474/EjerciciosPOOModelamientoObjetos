@@ -48,6 +48,56 @@ pero como podemos evidenciar en la siguiente imagen no se puede correr porque ya
 La otra cosa es que se tenga dos archivos main pero en diferentes archivos o paquetes como eneste caso de que cada ejercicio esta por separado en carpetas
 con diferentes main, pero esto hace parte de las malas practicas de programación, la idea es que por cada proyecto se tenga un solo main
 
+## Ejercicio 3:
+Para poder utilizar la clase Sort se utilizo una clas MainSort, que lo que hace es que instancia los objetos.
+Cuando creo una variable de tipo Sort el constructor pide dos cosas: el array que deseemos organizar y un variable
+de tipo booleana que me conmuta su quiero el metodo quicksort o el algoritmo de la burbuja, siendo true quick sort y false
+el algoritmo de la burbuja.
+Ej:
+
+        int[] prueba={4,5,2,3,6,1};
+        Sort s1 = new Sort(prueba,true);
+        
+        
+### Método Quick sort:
+El método consiste en escojer un selector izquierdo, un selector derecho y un pivote, por lo general se inicia el pivote y el selector izquierdo
+como la posición cero y el selector derecho en el último elemento del arreglo(al inicio de la iteración) así.
+
+![image](https://user-images.githubusercontent.com/113210248/198739732-b8541d42-ee61-4d70-a6cd-e86161b7d125.png)
+
+luego guardamos estos límites en unas variables que no se van a modificar para una posterior utilización:
+
+![image](https://user-images.githubusercontent.com/113210248/198739909-b386d45d-2e64-4596-bcd4-607b523a5580.png)
+
+luego para la ubicación de los números, se tiene en cuenta que se toma el pivote como punto central, luego de ahí se empieza a organizar los números que
+sean mayores a el pivote se organizan en el lado derecho, y los menores en el lado izquierdo:
+
+![image](https://user-images.githubusercontent.com/113210248/198740287-c7e55b5b-52d8-4e4b-aec3-14923af5ace7.png)
+
+ Y cuando los dos selectores se encuentren en la misma posición es porque ese es el espacio para el pivote; como ya
+ se separaron se hace un llamado de nuevo al metodo pero para que ajuste el rango debajo del pivote, y el rango por encima del pivote
+ y si sucede lo mismo se vulve y se anida, hasta que regrese al último llamado, ordenando el arreglo de números.
+Nota: el while es por si el número esta en el lugar que es el selector se mueve.
+
+### Método de la burbuja:
+El método consiste en basicamnete comparar dos elementos de un array arrastrando el mayor número hacia la última posición del vector
+Por ejemplo si tenemos el arreglo {3,2,1}, entonces el algoritmo consiste en preguntar si tres es mayor que dos si lo es, cambielos de posición
+{2,3,1}, luego pregunta si el tres es mayor que uno, si es así cambielos, {2,1,3}, y vemos que mayor número queda en la última posición,
+esta caracteristica la vamos a usar a nuestro favor, entonces hay que recorrer todo el array:
+
+        for (int j=0; j<i; j++)
+Luego eso se tiene que hacer por todos lo elemntos del array; es decir, como vemos que arrastramos el mayor número a la última posición 
+luego hay que arrastrar el segundo mas grande a la penultima y así sucesivamente, es decir acotamos la llegada de las comparaciones
+
+        for(int i= numbers.length-1; i>0; i--){
+                    for (int j=0; j<i; j++)            
+Con esto ahorramos tiempo de ejecución, sin preguntar por el número que ya sabemos que esta bien.
+
+Nota: cada vez que se corra se van a ver diferentes por la función random de Math.
+
+![image](https://user-images.githubusercontent.com/113210248/199114327-c16df8a8-89b4-4788-af6b-614ee8c40276.png)
+
+
 
 
 
