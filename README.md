@@ -85,14 +85,12 @@ Por ejemplo si tenemos el arreglo {3,2,1}, entonces el algoritmo consiste en pre
 {2,3,1}, luego pregunta si el tres es mayor que uno, si es así cambielos, {2,1,3}, y vemos que mayor número queda en la última posición,
 esta caracteristica la vamos a usar a nuestro favor, entonces hay que recorrer todo el array:
 
-for (int j=0; j<i; j++)
-
+        for (int j=0; j<i; j++)
 Luego eso se tiene que hacer por todos lo elemntos del array; es decir, como vemos que arrastramos el mayor número a la última posición 
 luego hay que arrastrar el segundo mas grande a la penultima y así sucesivamente, es decir acotamos la llegada de las comparaciones
 
-for(int i= numbers.length-1; i>0; i--){
-            for (int j=0; j<i; j++)
-            
+        for(int i= numbers.length-1; i>0; i--){
+                    for (int j=0; j<i; j++)            
 Con esto ahorramos tiempo de ejecución, sin preguntar por el número que ya sabemos que esta bien.
 
 Ahora para la aplicación completa:
